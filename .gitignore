@@ -1,0 +1,12 @@
+citizen_assist
+citizen_assist.exe
+testes
+testes.exe
+*.o
+*.tmp
+/sessao_*.txt
+/teste_base.txt
+/teste_ruim.txt
+__pycache__/
+.vscode/
+.idea/
