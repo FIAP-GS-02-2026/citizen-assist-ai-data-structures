@@ -1,0 +1,57 @@
+abc
+15
+
+1
+3
+abc
+
+Recarga do Bilhete Único pelo aplicativo oficial
+3
+
+A recarga pode ser feita pelo aplicativo ou pelo site oficial da SPTrans, com pagamento por Pix ou cartão.
+Bilhete Único com cadastro
+Aplicativo ou site oficial da SPTrans
+https://www.sptrans.com.br/compra-de-creditos-e-servicos
+18/11/2026
+
+2
+25
+2
+999
+3
+3
+1
+bilhete unico
+3
+2
+energia
+3
+1
+metro
+4
+25
+
+nova categoria de teste
+A recarga pode ser feita pelo aplicativo ou pelo site oficial da SPTrans. Confira as formas de pagamento na fonte.
+
+
+
+
+6
+1
+1
+6
+4
+2
+7
+5
+25
+x
+n
+5
+25
+s
+5
+25
+9
+0

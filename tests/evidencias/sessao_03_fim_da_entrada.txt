@@ -1,0 +1,24 @@
+# Evidência: ./citizen_assist sessao_03_fim_da_entrada.txt < tests/roteiros/03_fim_da_entrada.txt  (CITIZEN_ECO=1 mostra o que foi digitado)
+Citizen Assist AI Mobilidade · Data Structures and Algorithms (GS 2026.2)
+Protótipo acadêmico: não é canal oficial. Não pede nem guarda dados pessoais.
+24 orientação(ões) carregada(s) de sessao_03_fim_da_entrada.txt.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 1
+
+== Cadastrar orientação ==
+  ID (1 a 99999, Enter = 25): 30
+  Título: Cadastro interrompido no meio
+  Categorias existentes:
+    1) Gratuidades   2) Tarifas   3) Bilhete Único
+    4) Acessibilidade   5) Atendimento e reclamação   6) Linhas e horários
+    7) Energia e mobilidade elétrica
+  Categoria (número ou nome de uma nova): <fim da entrada>
+Até logo! Memória da lista liberada.

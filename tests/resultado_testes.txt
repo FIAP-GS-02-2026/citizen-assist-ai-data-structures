@@ -1,0 +1,88 @@
+Testes automatizados · Citizen Assist AI Mobilidade (DSA)
+grupo     | caso                                                 | esperado                 | observado                | resultado
+vazia     | lista nova está vazia                                | vazia                    | vazia                    | OK
+vazia     | buscar ID 1 em lista vazia                           | NULL                     | NULL                     | OK
+vazia     | pesquisar "onibus" em lista vazia                    | 0                        | 0                        | OK
+vazia     | remover ID 1 em lista vazia                          | LISTA_VAZIA              | LISTA_VAZIA              | OK
+vazia     | atualizar ID 1 em lista vazia                        | LISTA_VAZIA              | LISTA_VAZIA              | OK
+vazia     | Merge Sort em lista vazia (comparações)              | 0                        | 0                        | OK
+vazia     | Insertion Sort em lista vazia (comparações)          | 0                        | 0                        | OK
+vazia     | início e fim continuam NULL                          | NULL/NULL                | NULL/NULL                | OK
+vazia     | próximo ID sugerido                                  | 1                        | 1                        | OK
+inserir   | inserir ID 10 (lista vazia)                          | OK                       | OK                       | OK
+inserir   | início e fim apontam para o mesmo nó                 | inicio == fim            | inicio == fim            | OK
+inserir   | inserir ID 3                                         | OK                       | OK                       | OK
+inserir   | inserir ID 7                                         | OK                       | OK                       | OK
+inserir   | ordem de inserção preservada no fim                  | 10,3,7                   | 10,3,7                   | OK
+inserir   | ID 3 duplicado é recusado                            | ID_DUPLICADO             | ID_DUPLICADO             | OK
+inserir   | tamanho não muda após duplicado                      | 3                        | 3                        | OK
+inserir   | ID 0 (fora da faixa) é recusado                      | DADO_INVALIDO            | DADO_INVALIDO            | OK
+inserir   | ID 100000 (fora da faixa) é recusado                 | DADO_INVALIDO            | DADO_INVALIDO            | OK
+inserir   | título só com espaços é recusado                     | DADO_INVALIDO            | DADO_INVALIDO            | OK
+inserir   | data 2026-02-30 é recusada                           | DADO_INVALIDO            | DADO_INVALIDO            | OK
+inserir   | data 2028-02-29 (bissexto) é aceita                  | OK                       | OK                       | OK
+inserir   | próximo ID sugerido = maior + 1                      | 23                       | 23                       | OK
+busca     | buscar ID 3 (existe)                                 | Como tirar o Bilhete...  | encontrado               | OK
+busca     | buscar ID 999 (não existe)                           | NULL                     | NULL                     | OK
+busca     | título "onibus" sem acento acha "ônibus"             | 2                        | 2                        | OK
+busca     | título "BILHETE UNICO" em maiúsculas                 | 2                        | 2                        | OK
+busca     | categoria "tarifa"                                   | 2                        | 2                        | OK
+busca     | resultados vêm na ordem da lista                     | IDs 2 e 5                | IDs 2 e 5                | OK
+busca     | termo inexistente "metrô noturno"                    | 0                        | 0                        | OK
+busca     | termo vazio não devolve tudo                         | 0                        | 0                        | OK
+busca     | categorias com "a": conta 4 mesmo guardando só 2     | 4                        | 4                        | OK
+atualizar | atualizar título do ID 2                             | OK                       | OK                       | OK
+atualizar | novo título gravado e ID mantido                     | ID 2 atualizado          | ID 2 atualizado          | OK
+atualizar | atualizar ID 999 (não existe)                        | NAO_ENCONTRADO           | NAO_ENCONTRADO           | OK
+atualizar | data em formato errado é recusada                    | DADO_INVALIDO            | DADO_INVALIDO            | OK
+atualizar | registro original preservado após recusa             | 2026-11-16               | 2026-11-16               | OK
+atualizar | posição dos nós não muda                             | 1,2,3,4,5                | 1,2,3,4,5                | OK
+remover   | remover ID 3 (meio)                                  | OK                       | OK                       | OK
+remover   | vizinhos religados                                   | 1,2,4,5                  | 1,2,4,5                  | OK
+remover   | remover ID 1 (início)                                | OK                       | OK                       | OK
+remover   | início avança                                        | 2,4,5                    | 2,4,5                    | OK
+remover   | remover ID 5 (fim)                                   | OK                       | OK                       | OK
+remover   | fim volta para o anterior                            | 2,4                      | 2,4                      | OK
+remover   | remover ID 3 de novo (não existe)                    | NAO_ENCONTRADO           | NAO_ENCONTRADO           | OK
+remover   | tamanho após 3 remoções                              | 2                        | 2                        | OK
+remover   | remover todos deixa início/fim NULL                  | NULL/NULL                | NULL/NULL                | OK
+remover   | inserir de novo após esvaziar                        | OK                       | OK                       | OK
+remover   | lista com 1 nó íntegra                               | 9                        | 9                        | OK
+ordenar   | Merge Sort por título (A-Z, sem acento)              | 4,5,3,2,1                | 4,5,3,2,1                | OK
+ordenar   | Merge Sort por ID                                    | 1,2,3,4,5                | 1,2,3,4,5                | OK
+ordenar   | Merge Sort por categoria e título                    | 4,3,1,5,2                | 4,3,1,5,2                | OK
+ordenar   | Merge Sort por verificação (empate → ID)             | 5,3,1,2,4                | 5,3,1,2,4                | OK
+ordenar   | Insertion Sort por título                            | 4,5,3,2,1                | 4,5,3,2,1                | OK
+ordenar   | Insertion Sort por ID                                | 1,2,3,4,5                | 1,2,3,4,5                | OK
+ordenar   | Insertion já ordenada: n-1 comparações               | 4                        | 4                        | OK
+ordenar   | Insertion em ordem inversa: 2(n-1) comparações       | 8                        | 8                        | OK
+ordenar   | resultado da ordem inversa                           | 1,2,3,4,5                | 1,2,3,4,5                | OK
+ordenar   | Merge Sort é estável (empate mantém 8,6)             | 8,6                      | 8,6                      | OK
+ordenar   | Insertion Sort é estável (empate mantém 8,6)         | 8,6                      | 8,6                      | OK
+entrada   | "12" vira 12                                         | 1                        | 1                        | OK
+entrada   | "  7 " com espaços vira 7                            | 1                        | 1                        | OK
+entrada   | "abc" é recusado                                     | 0                        | 0                        | OK
+entrada   | "12a" é recusado                                     | 0                        | 0                        | OK
+entrada   | "1.5" é recusado                                     | 0                        | 0                        | OK
+entrada   | texto vazio é recusado                               | 0                        | 0                        | OK
+entrada   | "10" fora da faixa 0-9 é recusado                    | 0                        | 0                        | OK
+entrada   | "-1" fora da faixa é recusado                        | 0                        | 0                        | OK
+entrada   | "99999999999" (estouro) é recusado                   | 0                        | 0                        | OK
+entrada   | normalizar acentos e maiúsculas                      | onibus unico a noite     | onibus unico a noite     | OK
+entrada   | copiar_texto não corta letra UTF-8                   | Ônib                     | Ônib                     | OK
+arquivo   | salvar 5 registros                                   | 5                        | 5                        | OK
+arquivo   | recarregar os 5 registros                            | 5                        | 5                        | OK
+arquivo   | mesma ordem depois de recarregar                     | 1,2,3,4,5                | 1,2,3,4,5                | OK
+arquivo   | arquivo com erros: carrega só a linha válida         | 1                        | 1                        | OK
+arquivo   | arquivo com erros: 5 linhas ignoradas                | 5                        | 5                        | OK
+arquivo   | arquivo inexistente retorna -1                       | -1                       | -1                       | OK
+
+76 testes, 0 falha(s).
+
+Crescimento medido (registros em ordem aleatória, critério: ID)
+       n |  Merge (comp.) |   n*teto(log2 n) |      Insertion | n^2/4 (caso medio)
+     250 |           1663 |             2000 |          15007 |              15625
+     500 |           3862 |             4500 |          66440 |              62500
+    1000 |           8706 |            10000 |         248485 |             250000
+    2000 |          19395 |            22000 |        1002644 |            1000000
+    4000 |          42839 |            48000 |        3959680 |            4000000

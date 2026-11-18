@@ -1,0 +1,173 @@
+# Evidência: ./citizen_assist sessao_02_lista_vazia.txt < tests/roteiros/02_lista_vazia.txt  (CITIZEN_ECO=1 mostra o que foi digitado)
+Citizen Assist AI Mobilidade · Data Structures and Algorithms (GS 2026.2)
+Protótipo acadêmico: não é canal oficial. Não pede nem guarda dados pessoais.
+Arquivo sessao_02_lista_vazia.txt não encontrado: a lista começa vazia.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 2
+
+== Consultar por ID ==
+  A lista está vazia. Cadastre uma orientação pela opção 1.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 3
+
+== Pesquisar ==
+  A lista está vazia. Cadastre uma orientação pela opção 1.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 4
+
+== Atualizar orientação ==
+  A lista está vazia. Cadastre uma orientação pela opção 1.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 5
+
+== Excluir orientação ==
+  A lista está vazia. Cadastre uma orientação pela opção 1.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 6
+
+== Ordenar e exibir ==
+  A lista está vazia. Cadastre uma orientação pela opção 1.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 7
+
+== Análise da base ==
+  A lista está vazia. Cadastre uma orientação pela opção 1.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 8
+
+== Todas as orientações (ordem atual da lista) ==
+  A lista está vazia. Cadastre uma orientação pela opção 1.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 1
+
+== Cadastrar orientação ==
+  ID (1 a 99999, Enter = 1): 1
+  Título: Teste em lista vazia
+  Categorias existentes: (nenhuma ainda)
+  Categoria (número ou nome de uma nova): Tarifas
+  Nova categoria criada: Tarifas
+  Descrição (a orientação ao cidadão): Registro criado para testar a primeira inserção.
+  Documentos/requisitos (opcional, separe com ;): 
+  Onde resolver: Posto de Atendimento
+  Fonte oficial (URL): https://www.sptrans.com.br
+  Verificado em AAAA-MM-DD (Enter = 2026-11-18): 2026-11-18
+  Orientação 1 cadastrada. Total: 1.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 8
+
+== Todas as orientações (ordem atual da lista) ==
+  [  1] Tarifas                       | Teste em lista vazia
+  Total: 1
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 5
+
+== Excluir orientação ==
+  ID: 1
+  [  1] Tarifas                       | Teste em lista vazia
+  Confirma a exclusão? (s/n): s
+  Orientação 1 excluída. Total: 0.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 8
+
+== Todas as orientações (ordem atual da lista) ==
+  A lista está vazia. Cadastre uma orientação pela opção 1.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 0
+Há alterações não salvas. Salvar antes de sair? (s/n): n
+Até logo! Memória da lista liberada.

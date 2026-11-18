@@ -1,0 +1,408 @@
+# Evidência: ./citizen_assist sessao_01_operacoes.txt < tests/roteiros/01_operacoes.txt  (CITIZEN_ECO=1 mostra o que foi digitado)
+Citizen Assist AI Mobilidade · Data Structures and Algorithms (GS 2026.2)
+Protótipo acadêmico: não é canal oficial. Não pede nem guarda dados pessoais.
+24 orientação(ões) carregada(s) de sessao_01_operacoes.txt.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: abc
+  ! Valor inválido: digite um número inteiro de 0 a 9.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 15
+  ! Valor inválido: digite um número inteiro de 0 a 9.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 
+  ! Nenhum valor digitado.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 1
+
+== Cadastrar orientação ==
+  ID (1 a 99999, Enter = 25): 3
+  ! Já existe uma orientação com o ID 3. Escolha outro.
+  ID (1 a 99999, Enter = 25): abc
+  ! ID inválido: use um número inteiro de 1 a 99999.
+  ID (1 a 99999, Enter = 25): 
+  Título: Recarga do Bilhete Único pelo aplicativo oficial
+  Categorias existentes:
+    1) Gratuidades   2) Tarifas   3) Bilhete Único
+    4) Acessibilidade   5) Atendimento e reclamação   6) Linhas e horários
+    7) Energia e mobilidade elétrica
+  Categoria (número ou nome de uma nova): 3
+  Descrição (a orientação ao cidadão): 
+  ! Este campo é obrigatório.
+  Descrição (a orientação ao cidadão): A recarga pode ser feita pelo aplicativo ou pelo site oficial da SPTrans, com pagamento por Pix ou cartão.
+  Documentos/requisitos (opcional, separe com ;): Bilhete Único com cadastro
+  Onde resolver: Aplicativo ou site oficial da SPTrans
+  Fonte oficial (URL): https://www.sptrans.com.br/compra-de-creditos-e-servicos
+  Verificado em AAAA-MM-DD (Enter = 2026-11-18): 18/11/2026
+  ! Data inválida. Exemplo: 2026-11-18.
+  Verificado em AAAA-MM-DD (Enter = 2026-11-18): 
+  Orientação 25 cadastrada. Total: 25.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 2
+
+== Consultar por ID ==
+  ID: 25
+
+  ID 25 · Bilhete Único
+  Recarga do Bilhete Único pelo aplicativo oficial
+  ------------------------------------------------------------
+  A recarga pode ser feita pelo aplicativo ou pelo site oficial da SPTrans, com pagamento por Pix ou cartão.
+
+  Documentos/requisitos: Bilhete Único com cadastro
+  Onde: Aplicativo ou site oficial da SPTrans
+  Fonte: https://www.sptrans.com.br/compra-de-creditos-e-servicos (verificada em 2026-11-18)
+  Aviso: este protótipo não é canal oficial; confirme na fonte.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 2
+
+== Consultar por ID ==
+  ID: 999
+  Nenhuma orientação com o ID 999.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 3
+
+== Pesquisar ==
+  1) Por título   2) Por categoria
+  Campo: 3
+  ! Valor inválido: digite um número inteiro de 1 a 2.
+  Campo: 1
+  Termo (parte do texto, sem precisar de acento): bilhete unico
+  7 resultado(s), comparando 25 registro(s) em busca sequencial:
+  [  3] Gratuidades                   | Bilhete Único Especial para pessoa com deficiência
+  [  5] Gratuidades                   | Meia tarifa com o Bilhete Único de Estudante
+  [  9] Tarifas                       | Bilhete Único Mensal e de 24 horas
+  [ 10] Bilhete Único                 | Como tirar o Bilhete Único Comum
+  [ 11] Bilhete Único                 | Como colocar crédito no Bilhete Único (recarga)
+  [ 12] Bilhete Único                 | Perdi ou roubaram meu Bilhete Único: segunda via
+  [ 25] Bilhete Único                 | Recarga do Bilhete Único pelo aplicativo oficial
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 3
+
+== Pesquisar ==
+  1) Por título   2) Por categoria
+  Campo: 2
+  Termo (parte do texto, sem precisar de acento): energia
+  7 resultado(s), comparando 25 registro(s) em busca sequencial:
+  [ 18] Energia e mobilidade elétrica | Quanto custa carregar bike ou patinete elétrico na tomada
+  [ 19] Energia e mobilidade elétrica | Bandeira tarifária: quando o kWh fica mais caro
+  [ 20] Energia e mobilidade elétrica | Energia solar em casa: créditos na conta de luz
+  [ 21] Energia e mobilidade elétrica | Bicicleta elétrica e patinete: precisa de placa ou CNH?
+  [ 22] Energia e mobilidade elétrica | Velocidade de bike elétrica e patinete na ciclovia e na calçada
+  [ 23] Energia e mobilidade elétrica | Tomada ou energia solar: o que compensa para carregar bike e patinete
+  [ 24] Energia e mobilidade elétrica | Onde descartar a bateria da bike ou do patinete elétrico
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 3
+
+== Pesquisar ==
+  1) Por título   2) Por categoria
+  Campo: 1
+  Termo (parte do texto, sem precisar de acento): metro
+  1 resultado(s), comparando 25 registro(s) em busca sequencial:
+  [  8] Tarifas                       | Valor da passagem de ônibus e integração com metrô e trem
+
+  ID 8 · Tarifas
+  Valor da passagem de ônibus e integração com metrô e trem
+  ------------------------------------------------------------
+  A passagem de ônibus municipal custa R$ 5,30 desde 06/01/2026. Com o Bilhete Único Comum você pode pegar até 4 ônibus em 3 horas pagando uma vez só. A integração ônibus + metrô ou trem custa R$ 9,38 e permite até 3 ônibus em 3 horas e 1 viagem de metrô ou trem nas 2 primeiras horas.
+
+  Documentos/requisitos: Bilhete Único com crédito
+  Onde: Tabela oficial de tarifas da SPTrans
+  Fonte: https://www.sptrans.com.br/tarifas/ (verificada em 2026-11-16)
+  Aviso: este protótipo não é canal oficial; confirme na fonte.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 4
+
+== Atualizar orientação ==
+  ID: 25
+
+  ID 25 · Bilhete Único
+  Recarga do Bilhete Único pelo aplicativo oficial
+  ------------------------------------------------------------
+  A recarga pode ser feita pelo aplicativo ou pelo site oficial da SPTrans, com pagamento por Pix ou cartão.
+
+  Documentos/requisitos: Bilhete Único com cadastro
+  Onde: Aplicativo ou site oficial da SPTrans
+  Fonte: https://www.sptrans.com.br/compra-de-creditos-e-servicos (verificada em 2026-11-18)
+  Aviso: este protótipo não é canal oficial; confirme na fonte.
+
+  Digite o novo valor de cada campo ou só Enter para manter.
+  Título (Enter mantém): 
+  Categorias existentes:
+    1) Gratuidades   2) Tarifas   3) Bilhete Único
+    4) Acessibilidade   5) Atendimento e reclamação   6) Linhas e horários
+    7) Energia e mobilidade elétrica
+  Categoria (número, nome novo ou Enter para manter): nova categoria de teste
+  Nova categoria criada: nova categoria de teste
+  Descrição (a orientação ao cidadão) (Enter mantém): A recarga pode ser feita pelo aplicativo ou pelo site oficial da SPTrans. Confira as formas de pagamento na fonte.
+  Documentos/requisitos (opcional, separe com ;) (Enter mantém): 
+  Onde resolver (Enter mantém): 
+  Fonte oficial (URL) (Enter mantém): 
+  Verificado em AAAA-MM-DD (Enter = 2026-11-18): 
+  Orientação 25 atualizada.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 6
+
+== Ordenar e exibir ==
+  Critério: 1) Título  2) Categoria e título  3) ID  4) Data de verificação
+  Critério: 1
+  Algoritmo: 1) Merge Sort  2) Insertion Sort
+  Algoritmo: 1
+  [  4] Gratuidades                   | Acompanhante de pessoa com deficiência no ônibus
+  [ 13] Acessibilidade                | Atende+: transporte porta a porta para pessoa com deficiência
+  [ 19] Energia e mobilidade elétrica | Bandeira tarifária: quando o kWh fica mais caro
+  [ 21] Energia e mobilidade elétrica | Bicicleta elétrica e patinete: precisa de placa ou CNH?
+  [  3] Gratuidades                   | Bilhete Único Especial para pessoa com deficiência
+  [  9] Tarifas                       | Bilhete Único Mensal e de 24 horas
+  [ 11] Bilhete Único                 | Como colocar crédito no Bilhete Único (recarga)
+  [ 15] Atendimento e reclamação      | Como reclamar do ônibus (SP156)
+  [ 10] Bilhete Único                 | Como tirar o Bilhete Único Comum
+  [ 14] Acessibilidade                | Descer do ônibus fora do ponto (pessoa com deficiência ou mobilidade reduzida)
+  [  7] Tarifas                       | Domingão Tarifa Zero: ônibus de graça aos domingos
+  [ 20] Energia e mobilidade elétrica | Energia solar em casa: créditos na conta de luz
+  [  1] Gratuidades                   | Gratuidade no ônibus para pessoa idosa com 65 anos ou mais
+  [  2] Gratuidades                   | Gratuidade no ônibus para pessoa idosa de 60 a 64 anos
+  [  6] Gratuidades                   | Gratuidade para estudante de baixa renda
+  [  5] Gratuidades                   | Meia tarifa com o Bilhete Único de Estudante
+  [ 24] Energia e mobilidade elétrica | Onde descartar a bateria da bike ou do patinete elétrico
+  [ 17] Linhas e horários             | Ônibus de madrugada: Rede Noturno
+  [ 16] Atendimento e reclamação      | Ouvidoria da SPTrans quando o SP156 não resolveu
+  [ 12] Bilhete Único                 | Perdi ou roubaram meu Bilhete Único: segunda via
+  [ 18] Energia e mobilidade elétrica | Quanto custa carregar bike ou patinete elétrico na tomada
+  [ 25] nova categoria de teste       | Recarga do Bilhete Único pelo aplicativo oficial
+  [ 23] Energia e mobilidade elétrica | Tomada ou energia solar: o que compensa para carregar bike e patinete
+  [  8] Tarifas                       | Valor da passagem de ônibus e integração com metrô e trem
+  [ 22] Energia e mobilidade elétrica | Velocidade de bike elétrica e patinete na ciclovia e na calçada
+
+  Merge Sort por título (A-Z): n = 25, 86 comparações (3.101 ms).
+  Referência: n·teto(log2 n) = 125 · pior caso do Insertion n(n-1)/2 = 300.
+  A lista foi reorganizada trocando ponteiros (os registros não foram copiados).
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 6
+
+== Ordenar e exibir ==
+  Critério: 1) Título  2) Categoria e título  3) ID  4) Data de verificação
+  Critério: 4
+  Algoritmo: 1) Merge Sort  2) Insertion Sort
+  Algoritmo: 2
+  [  1] Gratuidades                   | Gratuidade no ônibus para pessoa idosa com 65 anos ou mais
+  [  2] Gratuidades                   | Gratuidade no ônibus para pessoa idosa de 60 a 64 anos
+  [  3] Gratuidades                   | Bilhete Único Especial para pessoa com deficiência
+  [  4] Gratuidades                   | Acompanhante de pessoa com deficiência no ônibus
+  [  5] Gratuidades                   | Meia tarifa com o Bilhete Único de Estudante
+  [  6] Gratuidades                   | Gratuidade para estudante de baixa renda
+  [  7] Tarifas                       | Domingão Tarifa Zero: ônibus de graça aos domingos
+  [  8] Tarifas                       | Valor da passagem de ônibus e integração com metrô e trem
+  [  9] Tarifas                       | Bilhete Único Mensal e de 24 horas
+  [ 10] Bilhete Único                 | Como tirar o Bilhete Único Comum
+  [ 11] Bilhete Único                 | Como colocar crédito no Bilhete Único (recarga)
+  [ 12] Bilhete Único                 | Perdi ou roubaram meu Bilhete Único: segunda via
+  [ 13] Acessibilidade                | Atende+: transporte porta a porta para pessoa com deficiência
+  [ 14] Acessibilidade                | Descer do ônibus fora do ponto (pessoa com deficiência ou mobilidade reduzida)
+  [ 15] Atendimento e reclamação      | Como reclamar do ônibus (SP156)
+  [ 16] Atendimento e reclamação      | Ouvidoria da SPTrans quando o SP156 não resolveu
+  [ 17] Linhas e horários             | Ônibus de madrugada: Rede Noturno
+  [ 18] Energia e mobilidade elétrica | Quanto custa carregar bike ou patinete elétrico na tomada
+  [ 19] Energia e mobilidade elétrica | Bandeira tarifária: quando o kWh fica mais caro
+  [ 20] Energia e mobilidade elétrica | Energia solar em casa: créditos na conta de luz
+  [ 21] Energia e mobilidade elétrica | Bicicleta elétrica e patinete: precisa de placa ou CNH?
+  [ 22] Energia e mobilidade elétrica | Velocidade de bike elétrica e patinete na ciclovia e na calçada
+  [ 23] Energia e mobilidade elétrica | Tomada ou energia solar: o que compensa para carregar bike e patinete
+  [ 24] Energia e mobilidade elétrica | Onde descartar a bateria da bike ou do patinete elétrico
+  [ 25] nova categoria de teste       | Recarga do Bilhete Único pelo aplicativo oficial
+
+  Insertion Sort por data de verificação (mais antiga primeiro): n = 25, 183 comparações (1.677 ms).
+  Referência: n·teto(log2 n) = 125 · pior caso do Insertion n(n-1)/2 = 300.
+  A lista foi reorganizada trocando ponteiros (os registros não foram copiados).
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 7
+
+== Análise da base ==
+  Total de orientações: 25 em 8 categoria(s)
+
+  Quantidade por categoria:
+    Gratuidades                      6  ######
+    Tarifas                          3  ###
+    Bilhete Único                    3  ###
+    Acessibilidade                   2  ##
+    Atendimento e reclamação         2  ##
+    Linhas e horários                1  #
+    Energia e mobilidade elétrica    7  #######
+    nova categoria de teste          1  #
+
+  Fonte verificada há mais de 30 dias: 0 orientação(ões)
+  Verificação mais antiga: ID 1 em 2026-11-16
+  Sem documentos/requisitos informados: 8
+  Memória da lista: 25 nós × 2128 bytes = 53200 bytes (heap)
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 5
+
+== Excluir orientação ==
+  ID: 25
+  [ 25] nova categoria de teste       | Recarga do Bilhete Único pelo aplicativo oficial
+  Confirma a exclusão? (s/n): x
+  ! Responda com s ou n.
+  Confirma a exclusão? (s/n): n
+  Exclusão cancelada.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 5
+
+== Excluir orientação ==
+  ID: 25
+  [ 25] nova categoria de teste       | Recarga do Bilhete Único pelo aplicativo oficial
+  Confirma a exclusão? (s/n): s
+  Orientação 25 excluída. Total: 24.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 5
+
+== Excluir orientação ==
+  ID: 25
+  Nenhuma orientação com o ID 25.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 9
+  24 orientação(ões) gravada(s) em sessao_01_operacoes.txt.
+
+----------------------------------------------
+ Citizen Assist AI Mobilidade · orientações
+----------------------------------------------
+ 1) Cadastrar          6) Ordenar e exibir
+ 2) Consultar por ID   7) Análise da base
+ 3) Pesquisar          8) Listar todas
+ 4) Atualizar          9) Salvar no arquivo
+ 5) Excluir            0) Sair
+Opção: 0
+Até logo! Memória da lista liberada.

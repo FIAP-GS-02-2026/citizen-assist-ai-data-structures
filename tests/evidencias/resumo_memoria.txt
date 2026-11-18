@@ -1,0 +1,5 @@
+Checagem de memória (valgrind --leak-check=full): saída vazia = 0 erros e 0 vazamentos
+testes automatizados ........ OK, sem vazamentos
+roteiro 01_operacoes OK, sem vazamentos
+roteiro 02_lista_vazia OK, sem vazamentos
+roteiro 03_fim_da_entrada OK, sem vazamentos
